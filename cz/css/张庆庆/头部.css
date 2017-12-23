@@ -6,6 +6,7 @@ header{
 }
 header{
 	width: 100%;
+	font-size: 16px;
 }
 .header{
 	height: 57px;
@@ -30,8 +31,8 @@ header{
 	padding-left: 35px;
 	position: relative;
 	background: url(../../images/张庆庆/动态/Search.png) no-repeat;
-	width: 249px;
-	height: 35px;
+	width: 276px;
+	height: 32px;
 	margin-top: 12px;
 	position: relative;
 	display: inline-block;
