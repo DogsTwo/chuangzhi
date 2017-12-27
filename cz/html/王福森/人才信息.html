@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>导师信息</title>
+	<link rel="stylesheet" href="../../css/张庆庆/base.css">
+	<style>
+		*{
+			margin: 0;
+			padding:0;
+		}
+		iframe{
+			width: 100%;
+			position: relative;
+			z-index: 999;
+
+		}
+		.header{
+			height: 57px;
+		}
+		.footer{
+			height: 370px;
+			margin-top: 190px;
+			/*position: absolute;
+			bottom:0;
+			left: 0;*/
+		}
+		.all{
+			width: 1536px;
+			height: 2000px;
+
+		}
+		body{
+			background-color: rgb(48,65,137);
+		}
+		.box1{
+			width: 1200px;
+			height: 35px;
+			/*border:1px solid white;*/
+			margin:0 auto;
+			text-align: center;
+		}
+		.box1 ul{
+			width: 1200px;
+			height: 50px;
+			margin-left: 140px;
+		}
+		.box1 ul li{
+			float: left;
+			padding: 0 40px;
+			line-height: 35px;
+			height: 35px;
+			text-align: center;
+			border-right: 2px solid gray;
+
+		}
+		.box1 ul li.chuangjian{
+			border-right: none;
+		}
+		.box2{
+			width: 1200px;
+			margin:0 auto;
+			height: 426px;
+			background: url(../../images/王福森/diqiu.png);
+			margin-top: 10px;
+		}
+		.jiben{
+			width: 810px;
+			height: 55px;
+			border-bottom:1.5px solid gray;
+			margin-left: 200px;
+		}
+		.jiben p{
+			margin-top: 15px;
+			font-size:25px;
+			font-weight: none;
+
+		}
+		.daoshi{
+			width: 810px;
+			height: 160px;
+			/*border:1px solid black;*/
+			margin-left: 200px;
+			border-bottom: 1.5px solid gray;
+		}
+		.daoshi img{
+			margin-top: 10px;
+		}
+		.daoshi h4{
+			margin-top: -90px;
+			margin-left: 140px;
+		}
+		.daoshi p{
+			margin-left: 140px;
+			font-size: 15px;
+			margin-top: 7px;
+		}
+		.daoshi h5{
+			margin-left: 700px;
+			margin-top: -105px;
+		}
+		.xiangxi{
+			width: 810px;
+			height:600px;
+			border-bottom:1.5px solid gray;
+			margin-left: 200px;
+			margin-top: 10px;
+		}
+		.xiangxi h4{
+			margin-top: 15px;
+		}
+		.xiangxi p{
+			font-size: 14px;
+			color:#dfdfdf;
+			margin-top: 15px;
+			margin-left: 10px;
+		}
+		.xiangxi p span{
+			margin-left: 10px;
+			font-size: 18px;
+		}
+		.xiangxi .jishu{
+			margin-left: 350px;
+			margin-top: -20px;
+		}
+		.a1{
+			position: relative;
+			bottom:50px;
+			left: 0;
+
+		}
+		.font{
+			width: 700px;
+			height: 100px;
+			font-size: 18px;
+			color: #dfdfdf;
+			position: relative;
+			left: 85px;
+			bottom:70px;
+			display: inline-block;
+		}
+		.font1{
+			width: 700px;
+			height: 100px;
+			font-size: 18px;
+			color: #dfdfdf;
+			position: relative;
+			bottom: 20px;
+			left: 85px;
+			display: inline-block;
+		}
+		.guanzhu{
+			width: 150px;
+			height: 40px;
+			background-color: rgba(66,67,131,.9);
+			color: white;
+			text-align: center;
+			line-height: 40px;
+			margin-left: 160px;
+			cursor: pointer;
+		}
+		.zixun{
+			width: 150px;
+			height: 40px;
+			background-color:rgba(66,67,131,.9);
+			color: white;
+			text-align: center;
+			line-height: 40px;
+			margin-left: 450px;
+			margin-top: -40px;
+			cursor: pointer;
+		}
+		.xiangxi img{
+			position: relative;
+			left: 650px;
+			top: 120px;
+		}
+		.qianwang{
+			width: 400px;
+			height: 40px;
+			background-color:rgba(66,67,131,.9);
+			color: white;
+			text-align: center;
+			line-height: 40px;
+			margin-top: 20px;
+			margin-left: 370px;
+
+		}
+		.xiangguan{
+			width: 360px;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			background-color: rgb(40,41,85);
+			float: right;
+			margin-top: -1380px;
+			margin-right: 160px;
+			/*position: absolute;
+			right: 150px;
+			top: 550px;*/
+		}
+		.box{
+			width: 360px;
+			height: 520px;
+			border:1.5px solid gray;
+			float: right;
+			margin-top: -1250px;
+			margin-right: 160px;
+			/*position: absolute;
+			right: 150px;
+			top: 640px;*/
+
+		}
+		.box .im1{
+			margin-left: 15px;
+			margin-top: 15px;
+		}
+		.box .p1{
+			margin-top: -90px;
+			margin-left: 130px;
+		}
+		.box .im2{
+			width: 340px;
+			height: 1.5px;
+			margin-left: 10px;
+			margin-top: 30px;
+		}
+		.remen{
+			width: 360px;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			background-color: rgb(40,41,85);
+			position: absolute;
+			right: 150px;
+			bottom: 111px;
+			position: relative;
+			top: 65px;
+			left: 0px;
+		}
+		.box3{
+			width: 360px;
+			height: 130px;
+			border:1.5px solid gray;
+			margin-top: 100px;
+		}
+		.box3 p{
+			margin-top: 200px;
+			position: relative;
+			top:100px;
+		}
+		.all{
+			width: 1536px;
+			height: 2400px;
+			background: url(../../images/王福森/beijing.png);
+			background-size: 1920px 2300px;
+		}
+		.tuijian{
+			width: 800px;
+			height: 480px;
+			/*border:1px solid black;*/
+			margin-left: 200px;
+			/*margin-top: 30px;*/
+		}
+		.tuijian .zhuanjia{
+			padding-left: 20px;
+			padding-top: 20px;
+		}
+		.tuijian .d1{
+			width: 180px;
+			height: 180px;
+			border:1px solid white;
+			float: left;
+			margin-left: 40px;
+			margin-top: 25px;
+		}
+		.tuijian .d1 img{
+			padding-left: 50px;
+			padding-top: 20px;
+		}
+		.tuijian .d1 P{
+			font-size: 16px;
+			text-align: center;
+			padding-top: 25px;
+		}
+	</style>
+</head>
+<body>
+<div class="all w">
+	<div class="all">
+		<iframe src="../张庆庆/toubu.html" frameborder="0" class="header"></iframe>
+		<div class="box1">
+			<ul>
+				<li><a href="">首页</a></li>
+				<li><a href="">行业资讯</a></li>
+				<li><a href="">我的创客</a></li>
+				<li><a href="">发现</a></li>
+				<li><a href="">招聘</a></li>
+				<li class="chuangjian"><a href="">创建项目</a></li>
+			</ul>
+		</div>
+		<div class="box2">
+		</div>
+		<div class="jiben">
+			<p>基本信息</p>
+		</div>
+		<div class="daoshi">
+			<img src="../../images/王福森/renwu1.png" alt="">
+			<h4>唐伯成</h4>
+			<p>职业:工程师</p>
+			<p>地址:北京市 直辖区 通州区</p>
+			<h5>更多导师</h5>
+		</div>
+		<div class="xiangxi">
+			<h4>详细信息</h4>
+			<p>专家类型 : <span>企业专家</span></p><p class="jishu">技术领域 : <span>科技服务</span></p>
+			<p>所在单位 : <span>北京百成科技文化有限公司</span></p>
+			<!-- <p>研究方向 : <span>生物节律速查系列文化用品研发生产与销售</span></p> -->
+			<p>专家简介 : <div class="font1">中国生物节律第一人、1988年发明“人体生物节律显示盘”，1991年加入中国发明协会，
+			2003年创立生物节律网，2015年3月创办北京百成科技文化有限公司。</div></p>
+			<p class="a1">主要成就 ：<div class="font">我是技术出身的研发管理者，主要从事互联网教育方面的科技创新、研发与企业信息化建设。我从事教育行业有7年多了，有一定的技术、产品的经验积累。本人有志于构建全国性的互联网在线学习平台。</div></p>
+			<div class="guanzhu">关注</div>
+			<div class="zixun">我要联系</div>
+			
+			<img src="../../images/王福森/qqkongjian.png" alt="">
+			<img src="../../images/王福森/weibo.png" alt="">
+			<img src="../../images/王福森/tengxunweibo.png" alt="">
+			<img src="../../images/王福森/renren.png" alt="">
+			<img src="../../images/王福森/weixin.png" alt="">
+			<img src="../../images/王福森/shizi.png" alt="">
+		</div>
+		<div class="tuijian">
+			<p class="zhuanjia">推荐专家</p>
+			<div class="d1">
+				<img src="../../images/王福森/renwu.png" alt="">
+				<p>研究方法：新材料</p>
+			</div>
+			<div class="d1">
+				<img src="../../images/王福森/renwu.png" alt="">
+				<p>研究方法：新材料</p>
+			</div>
+			<div class="d1">
+				<img src="../../images/王福森/renwu.png" alt="">
+				<p>研究方法：新材料</p>
+			</div>
+			<div class="d1">
+				<img src="../../images/王福森/renwu.png" alt="">
+				<p>研究方法：新材料</p>
+			</div>
+			<div class="d1">
+				<img src="../../images/王福森/renwu.png" alt="">
+				<p>研究方法：新材料</p>
+			</div>
+			<div class="d1">
+				<img src="../../images/王福森/renwu.png" alt="">
+				<p>研究方法：新材料</p>
+			</div>
+		</div>
+		<div class="box">
+			<img src="../../images/王福森/touxiang.png" alt="" class="im1">
+			<p class="p1">陈建<br><br>研究方向：科技服务</p>
+			<img src="../../images/王福森/xt.png" alt="" class="im2">
+			<img src="../../images/王福森/touxiang.png" alt="" class="im1">
+			<p class="p1">陈建<br><br>研究方向：科技服务</p>
+			<img src="../../images/王福森/xt.png" alt="" class="im2">
+			<img src="../../images/王福森/touxiang.png" alt="" class="im1">
+			<p class="p1">陈建<br><br>研究方向：科技服务</p>
+			<img src="../../images/王福森/xt.png" alt="" class="im2">
+			<img src="../../images/王福森/touxiang.png" alt="" class="im1">
+			<p class="p1">陈建<br><br>研究方向：科技服务</p>
+			<div class="remen">热门推荐</div>
+			<div class="box3">
+				<p class="p1">陈建<br><br>研究方向：科技服务</p>
+				<img src="../../images/王福森/touxiang.png" alt="" class="im1">
+				
+			</div>
+			
+		</div>
+		<div class="qianwang">前往人才库</div>
+		<div class="xiangguan">相关导师</div>
+		
+
+		<iframe src="../张庆庆/jiaobu.html" frameborder="0" class="footer"></iframe>
+	</div>
+</div>
+	
+	
+</body>
+</html>
