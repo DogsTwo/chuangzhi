@@ -18,6 +18,15 @@ body{
 .fr{
     float: right;
 }
+.por{
+	position: relative;
+}
+.dib{
+	display: inline-block;
+}
+.db{
+	display: block;
+}
 i{
     font-style: normal;
 }
