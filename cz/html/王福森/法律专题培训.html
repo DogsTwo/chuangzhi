@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../../css/张庆庆/base.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: url(../../images/王福森/beijing2.png) no-repeat center center;
+			background-size: 1920px 100%;
+			font-size: 0;
+		}	
+		iframe{
+			width: 100%;
+			position: relative;
+			z-index: 999;
+
+		}
+		.header{
+			height: 57px;
+		}
+		.footer{
+			height: 370px;
+		}
+		/*.black{
+			width: 1200px;
+			height: 1800px;
+			background-color:rgba(42,115,134,.5);
+			margin:0 auto;
+		}*/
+		.black .box1{
+			width: 1200px;
+			height: 35px;
+			/*border:1px solid white;*/
+			margin:0 auto;
+			text-align: center;
+			/*background-color: black;*/
+			font-size: 20px;
+		}
+		.black .box1 .nav{
+			width: 1200px;
+			height: 50px;
+			margin-left: 140px;
+
+		}
+		.black .box1 .nav li{
+			float: left;
+			padding: 0 40px;
+			line-height: 35px;
+			height: 35px;
+			text-align: center;
+			border-right: 2px solid gray;
+
+		}
+		.black .box1 .nav li.chuangjian{
+			border-right: none;
+		}
+		.black .box2{
+			width: 1200px;
+			margin:0 auto;
+			height: 426px;
+			background: url(../../images/王福森/diqiu.png);
+			margin-top: 10px;
+			
+		}
+		.box3{
+			width: 1200px;
+			height: 68px;
+			border-bottom:1.5px solid black;
+			margin:0 auto;
+		}
+		.box3 ul li{
+			width: 180px;
+			height: 40px;
+			font-size: 20px;
+			float: left;
+			line-height: 70px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.box4{
+			width: 1200px;
+			height: 295px;
+			border-bottom:1px solid black;
+			float: left;
+			
+		}
+		.box4 img{
+			width: 300px;
+			height: 220px;
+			margin-left: 20px;
+			margin-top: 30px;
+		}
+		.box4 p{
+			padding-left: 350px;
+			position: relative;
+			top: -200px;
+			left: -15px;
+		}
+		.box4 .t1{
+			padding-left:380px;
+		}
+		.box4 .t2{
+			font-size: 16px;
+			text-indent: 2em;
+			padding-top: 10px;
+		}
+		.all{
+			background: url(../../images/王福森/beijing2.png) no-repeat center ;
+
+		}
+		.box1 .select{
+			width: 150px;
+			height: 180px;
+			background-color: rgba(16,8,25,.5);
+			position: relative;
+			left: 430px;
+			top: 0;
+			display: none;
+		}
+		.box1 .select li{
+			width: 150px;
+			height: 40px;
+			line-height: 40px;
+		}
+		.box1 .select li:hover{
+			background-color: gray;
+			cursor: pointer;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="all">
+		<iframe src="../张庆庆/toubu.html" frameborder="0" class="header"></iframe>
+		<div class="black w">
+			<div class="box1">
+				<ul class="nav">
+					<li><a href="">首页</a></li>
+					<li><a href="">行业资讯</a></li>
+					<li class="wode" id="wode"><a href="">我的创客</a></li>
+					<li><a href="">发现</a></li>
+					<li><a href="">招聘</a></li>
+					<li class="chuangjian"><a href="">创建项目</a></li>
+				</ul>
+				<ul class="select" id="select">
+					<li>找资金</li>
+					<li>导师服务</li>
+					<li>法律服务</li>
+					<li>代理服务</li>
+				</ul>
+			</div>
+			<script>
+				var select=document.getElementById('select');
+				var li=document.getElementById('select').getElementsByTagName('li');
+				var wode=document.getElementById('wode');
+				wode.onmouseover=function(){
+					select.style.display='block';
+				}
+				wode.onmouseout=function(){
+					select.style.display='none';
+				}
+			</script>
+			<div class="box2"></div>
+			<div class="box3">
+				<ul>
+					<li>合同模板</li>
+					<li>在线咨询律师</li>
+					<li>法律专题培训</li>
+				</ul>
+			</div>
+			<div class="box4">
+				<img src="../../images/王福森/kaihui.png" alt="">
+				<p class="t1">致力维护法律权益</p>
+				<p class="t2">法律援助的地位和作用必将进一步加强，举办全市民事法律援助培训班对进一步增强法律援助工作能力，提高法律援助服务水平，维护困难群众和特殊群体具有重要意义。他说要增强法律工作的使命感和责任感，把保证案件质量作为首要目标，认真消化总结本次培训的内容，提高法律援助水平。</p>
+			</div>
+			<div class="box4">
+				<img src="../../images/王福森/kaihui.png" alt="">
+				<p class="t1">致力维护法律权益</p>
+				<p class="t2">法律援助的地位和作用必将进一步加强，举办全市民事法律援助培训班对进一步增强法律援助工作能力，提高法律援助服务水平，维护困难群众和特殊群体具有重要意义。他说要增强法律工作的使命感和责任感，把保证案件质量作为首要目标，认真消化总结本次培训的内容，提高法律援助水平。</p>
+			</div>
+			<div class="box4">
+				<img src="../../images/王福森/kaihui.png" alt="">
+				<p class="t1">致力维护法律权益</p>
+				<p class="t2">法律援助的地位和作用必将进一步加强，举办全市民事法律援助培训班对进一步增强法律援助工作能力，提高法律援助服务水平，维护困难群众和特殊群体具有重要意义。他说要增强法律工作的使命感和责任感，把保证案件质量作为首要目标，认真消化总结本次培训的内容，提高法律援助水平。</p>
+			</div>
+			<div class="box4">
+				<img src="../../images/王福森/kaihui.png" alt="">
+				<p class="t1">致力维护法律权益</p>
+				<p class="t2">法律援助的地位和作用必将进一步加强，举办全市民事法律援助培训班对进一步增强法律援助工作能力，提高法律援助服务水平，维护困难群众和特殊群体具有重要意义。他说要增强法律工作的使命感和责任感，把保证案件质量作为首要目标，认真消化总结本次培训的内容，提高法律援助水平。</p>
+			</div>
+		</div>
+		<iframe src="../张庆庆/jiaobu.html" frameborder="0" class="footer"></iframe>
+	</div>
+	
+</body>
+</html>
