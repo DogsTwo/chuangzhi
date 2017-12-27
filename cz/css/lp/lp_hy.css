@@ -1,0 +1,134 @@
+/*content*/
+body{
+	background: url(../../images/李鹏/zc/17.png) no-repeat center center;
+	background-size: 1920px 100%;
+}
+content{
+	position: relative;
+	width: 100%;
+}
+.nav{
+	width: 100%;
+	height: 100%;
+	
+}
+.nav .nav_q{
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+}
+.nav_w{
+	height: 60px;
+	position: relative;
+	top: -60px;
+}
+.nav_w ul{
+	z-index: 102;
+	width: 800px;
+	height: 50	px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.nav_w ul li{
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	border-right: 1.5px solid #707070;
+}
+.nav_w ul li a{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 40px;
+	display: inline-block;
+}
+.con{
+	width: 100%;
+	position: relative;
+}
+.con .con_q{
+	height: 592px;
+	position: relative;
+}
+.con_q img{
+	position: relative;
+	top: -60px;
+	display: inline-block;
+}
+.con_q i{
+	background: url(../../images/李鹏/zc/xt.png) no-repeat;
+	position: absolute;
+	bottom: 1px;
+	width: 1195px;
+	height: 3px;
+}
+.con_q .con_e{
+	width: 1200px;
+	height: 210px;
+	background: rgba(148,148,148,.4);
+	position: absolute;
+	bottom: 50px;
+	font-weight: normal;
+}
+.con_q .con_e p{
+	width: 1150px;
+	height: 100px;
+	font-size: 18px;
+	padding: 60px 25px 0 25px;
+}
+.ent{
+	font-size: 20px;
+	font-weight: normal;
+	position: relative;
+	top: -60px;
+}
+.ent li{
+	float: left;
+	padding: 10px 35px 10px 35px;
+}
+.ent .rl{
+	margin-right: 65px;
+}
+.ent li:hover{
+	background-color: #4e9ad7;
+}
+.ent_q{
+	height: 100%;
+	font-weight: normal;
+	font-size: 15px;
+}
+.ent_q li{
+	height: 253px;
+}
+.ent_q li img{
+	float: left;
+	padding-right: 15px;
+}
+.ent_q li p{
+	display: inline-block;
+	float: left;
+}
+.ent_q li .q3{
+	padding-top: 40px;
+	display: inline-block;
+	width: 560px;
+}
+.ent_q li .q2{
+	padding-top: 46px;
+}
+.ent_q .q1{
+	padding-bottom: 60px;
+	position: relative;
+}
+.ent_q .q1 a{
+	position: absolute;
+	left: 40%;
+	bottom: 27px;
+	height: 40px;
+	width: 150px;
+	background-color: #333;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	background: rgba(148,148,148,.5);
+}
