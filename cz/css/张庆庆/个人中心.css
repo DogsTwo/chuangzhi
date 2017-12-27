@@ -1,0 +1,354 @@
+.nav{
+	width: 100%;
+	height: 35px;
+	background-color: rgba(0,0,0,.2);
+	padding: 10px 0;
+}
+.nav ul{
+	width: 966px;
+	margin: 0 auto;
+}
+.nav ul li{
+	float: left;
+	height: 35px;
+	width: 80px;
+	padding: 0 40px;
+	text-align: center;
+	border-right: 1px solid #414556;
+	cursor: pointer;
+}
+.nav ul li.li-last{
+	border-right: none;
+}
+/*导航栏 结束*/
+/*内容部分开始*/
+.bodyBG{
+	
+}
+.con{
+	padding-top: 52px;
+	padding-bottom: 160px;
+	
+}
+.conLeft{
+	width: 180px;
+	height: 690px;
+}
+.conRight{
+	width: 955px;
+	height: 1200px;
+	margin-left: 60px;
+	overflow: hidden;
+}
+.conLt{
+	height: 225px;
+	width: 180px;
+	background-color: #fff;
+	text-align: center;
+}
+.conLB{
+	height: 500px;
+	width: 180px;
+	background-color: #fff;
+	margin-top: 25px;
+}
+.touxiang img{
+	margin-top: 7px;
+}
+.touxiang h1{
+	font-size: 22px;
+	color: #000;
+	margin-top: 5px;
+}
+.touxiang h4{
+	font-size: 14px;
+	color: #000;
+	margin-top: 5px;
+}
+.persontab ul li{
+	padding-left: 63px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 20px;
+	color:#b5b5b5;
+	border-left: 3px solid #fff;
+	position: relative;
+	cursor: pointer;
+}
+.persontab ul li i.setting,.persontab ul li i.myproject,.persontab ul li i.mycollect,.persontab ul li i.attention,.persontab ul li i.news,.persontab ul li i.esc{
+	position: absolute;
+	top: 27px;
+	left: 26px;
+	width: 30px;
+	height: 27px;
+	background: url(../../images/张庆庆/个人中心/Settings.png) no-repeat;
+}
+.persontab ul li i.myproject{
+	background: url(../../images/张庆庆/个人中心/Calendar.png) no-repeat;
+}
+.persontab ul li i.mycollect{
+	background: url(../../images/张庆庆/个人中心/Heart.png) no-repeat;
+}
+.persontab ul li i.attention{
+	background: url(../../images/张庆庆/个人中心/Eye.png) no-repeat;
+	top: 32px;
+}
+.persontab ul li i.news{
+	background: url(../../images/张庆庆/个人中心/Bubble.png) no-repeat;
+}
+.persontab ul li i.esc{
+	background: url(../../images/张庆庆/个人中心/esc.png) no-repeat;
+}
+.persontab ul li.current{
+	background-color: #ededee;
+	border-left: 3px solid #008df3;
+	color: #000;
+}
+.tabcon{
+	width: 905px;
+	height: 1150px;
+	background-color: #fff;
+	display: none;
+	font-size: 20px;
+	padding: 25px;
+}
+.conRight>div.show{
+	display: block;
+}
+/*设置块*/
+#tabUL1{
+	border-bottom: 1px solid #c9c9c9;
+}
+#tabUL1 li{
+	float: left;
+	font-size: 25px;
+	line-height: 40px;
+	margin-left: 25px;
+	border-bottom: 2px solid #fff;
+}
+#tabUL1 li a{
+	color: #000;
+}
+#tabUL1 li.current{
+	border-bottom: 2px solid #008df3;
+}
+#tabCon1>div.tabcon1{
+	width: 905px;
+	height: 1105px;
+	display: none;
+	font-size: 25px;
+	color: #000;
+}
+#tabCon1>div.show{
+	display: block;
+}
+.tabconLeft{
+	width: 130px;
+	height: 388px;
+	margin-top: 30px;
+}
+.tabconRight{
+	width: 725px;
+	height: 1075px;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.tabconLeft li{
+	line-height: 52px;
+	text-align: center;
+	font-size: 23px;
+	margin-top: 15px;
+}
+/*内容部分*/
+.mt25{
+	margin-top: 20px;
+}
+.userName{
+	width: 330px;
+	height: 50px;
+	border: 1px solid #a2a0a0;
+	border-radius: 5px;
+	font-size: 20px;
+}
+/*单选按钮*/
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	vertical-align: middle;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #99a1a7;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.regular-radio:checked + label {
+	background-color: #e9ecee;
+	color: #99a1a7;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+/*单选按钮结束*/
+.age{
+	width: 105px;
+	height: 50px;
+	padding-right: 66px;
+	border-radius: 5px;
+	font-size: 20px;
+	border: 1px solid #a2a0a0;
+	cursor: pointer;
+	line-height: 50px;
+	text-align: center;
+}
+.ageIcon{
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 60px;
+	height: 42px;
+	background: url(../../images/张庆庆/个人中心/age.png) no-repeat;
+}
+.agexiala span:hover {
+	background-color: #ededee;
+}
+.agexiala{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 175px;
+	background-color: #fff;
+	z-index: 60;
+	display: none;
+}
+.agexiala span{
+	display: block;
+	width: 175px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #fff;
+	cursor: pointer;
+}
+/*三级联动*/
+.choose-address {
+	padding: 10px;
+}
+label{
+	text-align: center;
+}
+select{
+    display: inline-block;
+    outline: none;
+    padding: 0 15px;
+    height: 50px;
+    border: 1px solid #a2a0a0;
+    background-color: #fff;
+    color: #aaa;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-appearance: none;
+  }
+  option{
+    text-align: center;
+  }
+/*三级联动结束*/
+.job{
+	padding-left: 25px;
+	padding-right: 50px;
+	width: 135px;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #a2a0a0;
+	background-color: #fff;
+	color: #aaa;
+	line-height: 50px;
+	text-align: center;
+}
+.jobxiala{
+	width: 210px;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	top: 52px;
+	left: 0;
+}
+.jobxiala span{
+	display: block;
+	width: 210px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #fff;
+}
+.jobxiala span:hover{
+	background-color: #ededee;
+}
+.down{
+	position: absolute;
+	top: 17px;
+	right: 15px;
+	width: 20px;
+	height: 20px;
+	background: url(../../images/张庆庆/个人中心/down.png) no-repeat;
+}
+.discribe{
+	width: 723px;
+	height: 257px;
+	resize: none;
+	font-size: 20px;
+	outline: none;
+	background-color: #fff;
+	border: 1px solid #a2a0a0;
+}
+.saveChange{
+	display: block;
+	width: 330px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #008df3;
+	border-radius: 5px;
+}
+/*个人信息结束*/
+/*修改密码开始*/
+.password{
+	width: 285px;
+    height: 50px;
+    padding-left: 45px;
+    border: 1px solid #a2a0a0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.pwIcon{
+	position: absolute;
+	top: 17px;
+	left: 15px;
+	width: 20px;
+	height: 24px;
+	background: url(../../images/张庆庆/手机号注册/password.png) no-repeat;
+}
