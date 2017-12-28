@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin: 0;
     padding: 0;
     border: none;
@@ -7,9 +7,6 @@ body{
 	font-size: 20px;
 	color: #FFFFFF;
 	/*font-weight: bold;*/
-}
-input{
-	outline: none;
 }
 .w{
     width: 1195px;
@@ -20,6 +17,9 @@ input{
 }
 .fr{
     float: right;
+}
+input{
+	outline: none;
 }
 .por{
 	position: relative;
