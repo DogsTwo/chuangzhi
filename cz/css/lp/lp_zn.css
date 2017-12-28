@@ -1,0 +1,89 @@
+/*content*/
+body{
+	background: url(../../images/李鹏/zc/03.png) no-repeat center center;
+	background-size: 1920px 100%;
+}
+content{
+	position: relative;
+	width: 100%;
+}
+.nav{
+	width: 100%;
+	height: 100%;
+	
+}
+.nav .nav_q{
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+}
+.nav_w{
+	height: 60px;
+	position: relative;
+	top: -60px;
+}
+.nav_w ul{
+	z-index: 102;
+	width: 800px;
+	height: 50	px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.nav_w ul li{
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	border-right: 1.5px solid #707070;
+}
+.nav_w ul li a{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 40px;
+	display: inline-block;
+}
+.con{
+	width: 100%;
+	position: relative;
+}
+.con .con_q{
+	height: 100%;
+}
+.ent{
+	font-size: 20px;
+	font-weight: normal;
+	position: relative;
+	top: -60px;
+}
+.ent li{
+	float: left;
+	padding: 10px 35px 10px 35px;
+}
+.ent li:hover{
+	background-color: #4e9ad7;
+}
+.con_q img{
+	position: relative;
+	top: 0;
+	right: -140px;
+}
+.con_q .ent_q{
+	height: 100%;
+	font-size: 20px;
+	font-weight: normal;
+}
+.con_q .ent_q p{
+	width: 1135px;
+}
+.p1{
+	padding: 20px 0 70px 30px;
+}
+.p2{
+	padding: 0 30px;
+}
+.p3{
+	padding: 0 30px 40px 30px;
+}
+.p4{
+	padding: 0 30px 275px 30px;
+}

@@ -50,3 +50,15 @@ ul{
 .clearfix{
     *zoom:1;/*IE/7/6*/
 }
+input{
+    outline: none;
+}
+.por{
+    position: relative;
+}
+.dib{
+    display: inline-block;
+}
+.db{
+    display: block;
+}
