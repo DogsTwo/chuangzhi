@@ -1,3 +1,4 @@
+//个人中心tab切换
 tab();
 function tab() {
 	var target = $('#tabUl');
@@ -18,7 +19,7 @@ function tab() {
 	}
 }
 
-
+//设置中的tab切换
 tab1();
 console.log($('#tabUL1').getElementsByTagName('li'));
 console.log($('.tabcon1'));
@@ -95,5 +96,30 @@ function job(){
 			}
 		})(i);
 		
+	}
+}
+
+//发送验证码倒计时
+time();
+function time(){
+	var countdown = 5;
+	var but = document.getElementById('time');
+	but.addEventListener('click', function (e) {
+    	setTime(but);
+	}) 
+	function setTime (elem) {
+		if (countdown == 0) {
+		     elem.value = "获取验证码";
+		    countdown = 5;
+		    elem.disabled = false;
+		    clearTimeout(anima);
+		} else {
+		    countdown--;
+		     elem.value = "重新获取(" + countdown + ")";   
+		     elem.disabled = true;
+		    var anima = setTimeout(function () {
+		        setTime(elem);
+		    }, 1000);
+		}
 	}
 }

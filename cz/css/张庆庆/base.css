@@ -8,6 +8,9 @@ body{
 	color: #FFFFFF;
 	/*font-weight: bold;*/
 }
+input{
+	outline: none;
+}
 .w{
     width: 1195px;
     margin: 0 auto;

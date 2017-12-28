@@ -343,8 +343,9 @@ select{
     border: 1px solid #a2a0a0;
     border-radius: 5px;
     font-size: 20px;
+    outline: none;
 }
-.pwIcon{
+.pwIcon,.yzmIcon{
 	position: absolute;
 	top: 17px;
 	left: 15px;
@@ -352,3 +353,177 @@ select{
 	height: 24px;
 	background: url(../../images/张庆庆/手机号注册/password.png) no-repeat;
 }
+.yzm{
+	display: inline-block;
+	width: 165px;
+    height: 50px;
+    padding-left: 45px;
+    border: 1px solid #a2a0a0;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+.yzmIcon{
+	width: 24px;
+	background: url(../../images/张庆庆/个人中心/Eye.png) no-repeat;
+}
+.djs{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid #a2a0a0;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 13px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.bdzh{
+	width: 330px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #a2a0a0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.bdzhBtn{
+	text-align: center;
+	background: #008df3;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+}
+/*设置页完*/
+/*我的收藏页开始*/
+.pd25{
+	padding: 0 85px;
+}
+.topUL{
+	border-bottom: 1px solid #b5b5b5;
+}
+.topUL li{
+	color: #000;
+	float: left;
+	font-size: 20px;
+	padding-left: 36px;
+	width: 110px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.bobUL{
+	margin-top: 40px;
+}
+.bobUL li{
+	padding: 10px 30px;
+	width: 675px;
+	height: 50px;
+	background-color: #eee;
+	margin-bottom: 18px;
+}
+.bobUL li>div{
+	height: 50px;
+	border-right: 1px solid #a2a0a0;
+}
+.booksName,.writer,.trade,.sendtime{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	color: #000;
+	font-weight: bold;
+	font-size: 13px;
+}
+.writer,.trade,.sendtime{
+	width: 143px;
+	text-align: center;
+}
+.sendtime{
+	width: 170px;
+}
+.sendtime p{
+	line-height: 25px;
+}
+.bookschakan{
+	width: 95px;
+	line-height: 45px;
+	text-align: right;
+	padding-right: 20px;
+	border-right: 0;
+}
+.bookschakan a{
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+}
+/*我的收藏页结束*/
+/*关注页开始*/
+.dongtaiOne{
+	width: 740px;
+	height: 100px;
+	margin-bottom: 15px;
+	background-color: #eee;
+	margin-left: 113px;
+}
+.dongtaiOne>div{
+	height: 100px;
+}
+.dongtaiOne div.imgBox img{
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.dongtaiOne .wenzi h1{
+	margin-top: 27px;
+}
+.dongtaiOne div.dongtaicon{
+	line-height: 100px;
+	color: #000;
+	width: 400px;
+	text-align: center;
+}
+.dongtaiOne div.chakan{
+	width: 165px;
+	height: 100px;
+}
+.dongtaiOne div.chakan a{
+	margin-top: 68px;
+	color: #000;
+}
+/*关注页结束*/
+/*消息页开始*/
+.xiaoxi{
+	width: 740px;
+	height: 163px;
+	background-color: #eee;
+	margin-left: 113px;
+	margin-top: 25px;
+}
+.xiaoxi img{
+	margin-left: 27px;
+	margin-top: 15px;
+	display: inline-block;
+}
+.wenzi{
+	display: inline-block;
+	margin-left: 20px;
+}
+.wenzi h1{
+	font-size: 20px;
+	color: #000;
+}
+.wenzi h5{
+	font-size: 12px;
+	color: #000;
+}
+.wenzhangCon{
+	display: inline-block;
+	width: 520px;
+    height: 127px;
+    resize: none;
+    font-size: 20px;
+    outline: none;
+    margin-top: 15px;
+    background-color: #fff;
+    border: 1px solid #a2a0a0;
+    vertical-align: top;
+}
+/*消息也结束*/
