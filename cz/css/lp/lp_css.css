@@ -7,14 +7,14 @@ content{
 	width: 100%;
 	height: 778px;
 	background: url(../../images/李鹏/zhuye/banner.png) no-repeat center center;
-	background-size: 1519.2px 778px;
+	background-size: 1920px 778px;
 }
 .nav .p11{
 	position: absolute;
-	left: 583px;
-	bottom: -297px;
-	width: 40px;
-	height: 40px;
+	left: 578px;
+	bottom: -310px;
+	width: 50px;
+	height: 50px;
 }
 .nav .nav_q{
 	width: 100%;
@@ -122,7 +122,7 @@ content{
 .ent{
 	width: 100%;
 	background: url(../../images/李鹏/zhuye/fb.png) no-repeat center center;
-	background-size: 1519.2px 1190px;
+	background-size: 1920px 1190px;
 }
 .ent .ent_q{
 	height: 1190px;
@@ -130,10 +130,10 @@ content{
 }
 .ent .ent_q .q2{
 	position: absolute;
-	top: 72px;
-	left: 583px;
-	width: 40px;
-	height: 40px;
+	top: 61px;
+	left: 580px;
+	width: 50px;
+	height: 50px;
 }
 .ent .ent_w p{
 	height: 100px;
@@ -219,7 +219,7 @@ content{
 .ssc{
 	width: 100%;
 	background: url(../../images/李鹏/zhuye/33.png) no-repeat center center;
-	background-size: 1519.2px 942px;
+	background-size: 1920px 942px;
 }
 .ssc .ssc_q{
 	height: 942px;
@@ -227,10 +227,10 @@ content{
 }
 .ssc .ssc_q .q22{
 	position: absolute;
-    top: 52px;
-    left: 583px;
-    width: 40px;
-    height: 40px;
+    top: 40px;
+    left: 579px;
+    width: 50px;
+    height: 50px;
 }
 .ssc .ssc_q .ssc_e{
 	text-align: center;
@@ -292,7 +292,11 @@ content{
 .bbq{
 	width: 100%;
 	background: url(../../images/李鹏/zhuye/ss1.png) no-repeat center center;
-	background-size: 1519.2px 1108px;
+	background-size: 1920px 1108px;
+}
+.bbq1{
+	background: url(../../images/李鹏/zhuye/110.png) no-repeat center center;
+	background-size: 1920px 524px;
 }
 .bbq .bbq_q{
 	width: 1519.2px;
@@ -301,24 +305,22 @@ content{
 	margin: 0 auto;
 }
 .bbq .bbq_q .q22{
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	position: relative;
-	top: 158px;
-	left: 743px;
+	top: 146px;
+	left: 739px;
 }
 .bbq .bbq_q .q33{
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	position: relative;
-	top: 56px;
-	left: 745px;
+	top: 44px;
+	left: 739px;
 }
 .bbq .bbq_q .bbq_w{
 	height: 524px;
 	width: 1519.2px;
-	background: url(../../images/李鹏/zhuye/110.png) no-repeat center center;
-	background-size: 1519.2px 411px;
 	position: relative;
 }
 .bbq .bbq_q .bbq_w .w12{
@@ -337,7 +339,7 @@ content{
 }
 .bbq .bbq_q .bbq_e .c8{
 	position: relative;
-	top: 85px;
+	top: 30px;
 }
 
 
