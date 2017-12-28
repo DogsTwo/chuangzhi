@@ -1,0 +1,26 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+a,h1,h2,h3,h4{ text-decoration: none; color: #FFFFFF;font-family:"Î¢ÈíÑÅºÚ";  }
+ul,li{list-style: none;}
+.nw{width: 1200px;margin: 0 auto;}
+.w{width: 1150px;margin: 0 auto;}
+.w1{width: 1165px;margin: 0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+.por{position: relative;}
+.poa{position: absolute;}
+img,input,select{vertical-align:middle;display:inline-block;}
+.fs12{font-size: 12px}
+.fs13{font-size: 13px}
+.fs14{font-size: 14px}
+.fs15{font-size: 15px}
+.fs16{font-size: 16px}
+.fs17{font-size: 17px}
+.fs18{font-size: 18px}
+.fs19{font-size: 19px}
+.m10{margin-top: 10px;}
+.m20{margin-top: 20px;}
+.o{overflow: hidden;}
+/*body{width: 100%;  height: 100%;background-color: #0d1e66;}*/
+.clearfix:before,.clearfix:after{  content:"";  display:table;  }
+.clearfix:after{clear:both;}
+.clearfix{  *zoom:1;/*IE/7/6*/ }
