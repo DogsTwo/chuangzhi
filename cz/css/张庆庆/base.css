@@ -1,0 +1,64 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+	font-size: 20px;
+	color: #FFFFFF;
+	/*font-weight: bold;*/
+}
+.w{
+    width: 1195px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+input{
+	outline: none;
+}
+.por{
+	position: relative;
+}
+.dib{
+	display: inline-block;
+}
+.db{
+	display: block;
+}
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    font-family: "微软雅黑";
+    color: #fff;
+    /*font-size: 20px;*/
+}
+ul{
+    list-style: none;
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+input{
+    outline: none;
+}
+.por{
+    position: relative;
+}
+.dib{
+    display: inline-block;
+}
+.db{
+    display: block;
+}
