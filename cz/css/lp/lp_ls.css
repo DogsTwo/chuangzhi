@@ -1,0 +1,147 @@
+/*content*/
+body{
+	background: url(../../images/李鹏/ls/01.png) no-repeat center center;
+	background-size: 1920px 100%;
+}
+.nav{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 10px;
+}
+.nav .nav_1{
+	width: 100%;
+	/*margin: 0 auto;*/
+	height: 60px;
+}
+.nav .nav_1 img{
+	/*display: block;*/
+	z-index: 202;
+	text-align: center;
+}
+.nav_w{
+	height: 60px;
+	/*position: relative;*/
+	/*top: -60px;*/
+}
+.nav_w ul{
+	z-index: 102;
+	width: 800px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.nav_w ul li{
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	border-right: 1.5px solid #707070;
+}
+.nav_w ul li a{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 40px;
+	display: inline-block;
+}
+.ent{
+	width: 100%;
+	height: 68px;
+}
+.ent .ent_q ul{
+	z-index: 102;
+	/*width: 800px;*/
+	height: 50px;
+	line-height: 50px;
+	padding-top: 15px;
+	border-bottom: 2px solid #035467;
+}
+.ent .ent_q li{
+	width: 150px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	/*border-right: 1.5px solid #707070;*/
+}
+.ent .ent_q li:hover{
+	background: rgba(0,0,0,.6);
+}
+.ont{
+	width: 100%;
+	height: 100%;
+}
+.ont .ont_1{
+	height: 125px;
+}
+.ont .ont_1 dl{
+	margin-top: 20px;
+	width: 800px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	font-size: 16px;
+	color: #fff;
+	padding: 0 42px;
+	z-index: 300;
+}
+.ont .ont_1 dt{
+	float: left;
+}
+dd{
+	float: left;
+	padding: 0 20px;
+	cursor: pointer;
+}
+dd:hover{
+	background: rgba(0,0,0,.6);
+}
+
+.ftt{
+	width: 100%;
+	height: 100%;
+}
+.ftt_1{
+	height: 1385px;
+	position: relative;
+}
+.ftt .ccg{
+	width: 350px;
+	height: 200px;
+	border: 1px solid #fff;
+	float: left;
+	margin: 20px 10px 20px 35px;
+}
+.ftt .ccg img{
+	padding: 40px 0 0 7px;
+}
+.ssg{
+	width: 200px;
+	display: inline-block;
+	padding-left: 20px;
+}
+.ssg p{
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	width: 200px;
+	padding-top: 5px;
+}
+
+.fcc{
+	border: 1px solid #fff;
+	width: 758px;
+	height: 60px;
+	font-size: 16px;
+	position: absolute;
+	bottom: 60px;
+	left: 225px;
+}
+.fcc span{
+	border-right: 1px solid #fff;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+}
