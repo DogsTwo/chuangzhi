@@ -1,0 +1,246 @@
+/*头部start*/
+body{
+    width: 100%;
+    height: 100%;
+    background: url("../images/hxx/bg.png") no-repeat center ;
+    margin: 0 auto;
+}
+nav{
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: rgba(0, 0, 0, .3);*/
+}
+.navtb{
+    /*width: 100%;*/
+    margin: 0 auto;
+    height: 47px;
+    background-color: #000000;
+}
+.navtb .navjz{
+    height: 47px;
+    background-color: #000000;
+}
+.navjz a{
+    font-weight:500;
+}
+.nav1{
+    width:473px ;
+    height: 47px;
+}
+.nav a .zt{
+    color: #fff;
+    /*font-weight: 500;*/
+}
+.nav1 a img{
+    padding: 0 31px 0 0;
+}
+.nav2{
+    width: 453px;
+    height: 47px;
+    background-color: #000000;
+}
+.nav2 input{
+    width: 279px;
+    height: 31px;
+    border-radius: 30px;
+    margin: -3px 0 0 0;
+    border: none;
+    background-color: #1b1b1b;
+}
+.nav2 img{
+    position: relative;
+    left: -267px;
+}
+.nav2 a{
+    margin-left: 60px;
+    line-height: 47px;
+}
+.navdh{
+    width: 100%;
+    height: 61px;
+}
+.navdh .navs{
+    padding: 10px 0;
+    height: 45px;
+}
+.navdh .navs ul{
+    width: 970px;
+    margin: 0 auto;
+    /*height: 61px;*/
+}
+.navdh .navs ul li{
+    float: left;
+    height: 35px;
+    width: 80px;
+    padding: 0 40px;
+    text-align: center;
+    line-height: 35px;
+    border-right: 1px solid #414556;
+    position: relative;
+}
+.navdh .navs ul li:hover a{
+    animation: top 1s;
+}
+.navdh .navs ul li.lis{
+    border-right: none;
+}
+@keyframes top{
+    0%{
+        top: 0;
+    }
+    50%{
+        top:10px;
+    }
+    100%{
+        top:0;
+    }
+}
+.navdh .navs ul li a{
+    font-size:18px;
+    font-weight: 400;
+    position: relative;
+    transition: all 1s;
+}
+.navdh .navs ul li .select{
+    width: 162px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    padding-top: 15px;
+    display: none;
+    left: 0;
+}
+.navdh .navs ul li .select li{
+    width: 162px;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    border-right: 0;
+}
+.navdh .navs ul li .select li:hover{
+    background-color: rgba(144,146,165,.5);
+}
+.navdh .navs ul>li:hover .select{
+    display: block;
+}
+.navdh .navs ul li a.lis{
+    border-right: none;
+}
+/*头部end*/
+.navlogo{
+    height: 100%;
+    margin: 0 auto;
+    background: url("../images/hxx/bg2.png") no-repeat center top ;
+}
+.navlogo .navlo span{
+    color: #fff;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.navlogo .navlo .logoin{
+    margin: 0 0 30px 0; 
+}
+.navlogo .navlo .logoin .imgs{
+    margin-right: 100px;
+}
+.navlogo .navlo .logoin .imgs img{
+    width: 695px;
+    height: 517px;
+}
+.navlogo .navlo .logoin .wenzi{
+    margin: 10px 0 0 0;
+}
+.navlogo .navlo .logoin .wenzi h2{
+    font-weight: 400;
+    padding: 10px 0;
+}
+.navlogo .navlo .logoin .wenzi h3{
+    font-weight: 400;
+    padding: 7px 0;
+}
+.navlogos .divs{
+    border-top: 2px dashed #1b1b1b ;
+    margin-bottom: 40px;
+}
+.navlogos .fl img{
+    width: 312px;
+    height: 210px;
+}
+.navlogos .fl .mt{
+    padding: 0 0 0 15px;
+}
+.navlogos .divs.tb{
+    margin: 0;
+}
+.navlogos .inp{
+    /*position: relative;*/
+    text-align: center;
+}
+.navlogos .inp input{
+    width: 203px;
+    height: 42px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border: 0;
+    /*position: relative;*/
+    top: 0;
+    /*left: 324px;*/
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+/*footer start*/
+.footerT{
+    width: 100%;
+    background-color: #343339;
+}
+.FTT{
+    height: 320px;
+}
+.footerB{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: #27272F;
+}
+.FBox{
+    height: 320px;
+}
+.khfw{
+    text-align: center;
+    margin-top: 40px;
+}
+.khfw a{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.foot-link{
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: center;
+}
+.foot-link a{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.ewm{
+    width: 110px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.footT{
+    width: 525px;
+    margin: 0 auto;
+    color: #fff;
+}
+.footT span{
+    font-size: 16px;
+}
+
+/*footer end*/

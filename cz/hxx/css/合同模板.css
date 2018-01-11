@@ -1,0 +1,276 @@
+/*Í·²¿start*/
+body{
+    width: 100%;
+    height: 100%;
+    background: url("../images/hxx/bg1.png") no-repeat top center ;
+}
+nav{
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .3);
+}
+.navtb{
+    /*width: 100%;*/
+    margin: 0 auto;
+    height: 47px;
+    background-color: #000000;
+}
+.navtb .navjz{
+    height: 47px;
+    background-color: #000000;
+}
+.navjz a{
+    font-weight:500;
+}
+.nav1{
+    width:473px ;
+    height: 47px;
+}
+.nav a .zt{
+    color: #fff;
+    /*font-weight: 500;*/
+}
+.nav1 a img{
+    padding: 0 31px 0 0;
+}
+.nav2{
+    width: 453px;
+    height: 47px;
+    background-color: #000000;
+}
+.nav2 input{
+    width: 279px;
+    height: 31px;
+    border-radius: 30px;
+    margin: -3px 0 0 0;
+    border: none;
+    background-color: #1b1b1b;
+}
+.nav2 img{
+    position: relative;
+    left: -267px;
+}
+.nav2 a{
+    margin-left: 60px;
+    line-height: 47px;
+}
+.navdh{
+    width: 100%;
+    height: 61px;
+}
+.navdh .navs{
+    padding: 10px 0;
+    height: 45px;
+}
+.navdh .navs ul{
+    width: 970px;
+    margin: 0 auto;
+    /*height: 61px;*/
+}
+.navdh .navs ul li{
+    float: left;
+    height: 35px;
+    width: 80px;
+    padding: 0 40px;
+    text-align: center;
+    line-height: 35px;
+    border-right: 1px solid #414556;
+    position: relative;
+}
+.navdh .navs ul li:hover a{
+    animation: top 1s;
+}
+.navdh .navs ul li.lis{
+    border-right: none;
+}
+@keyframes top{
+    0%{
+        top: 0;
+    }
+    50%{
+        top:10px;
+    }
+    100%{
+        top:0;
+    }
+}
+.navdh .navs ul li a{
+    font-size:18px;
+    font-weight: 400;
+    position: relative;
+}
+.navdh .navs ul li .select{
+    width: 162px;
+    height: 200px;
+    position: absolute;
+    top: 35px;
+    padding-top: 15px;
+    display: none;
+    left: 0;
+}
+.navdh .navs ul li .select li{
+    width: 162px;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    border-right: 0;
+}
+.navdh .navs ul li .select li:hover{
+    background-color: rgba(144,146,165,.5);
+}
+.navdh .navs ul>li:hover .select{
+    display: block;
+}
+.navdh .navs ul li a.lis{
+    border-right: none;
+}
+/*Í·²¿end*/
+.logo .logoin{
+    margin-top: 30px;
+}
+.logo .logoin img{
+    width: 1165px;
+    height: 426px;
+}
+.navbt .dh ul{
+    overflow: hidden;
+    padding-left: 120px;
+}
+.navbt .dh ul.ul1{
+    border-bottom: 3px solid #035267;
+    padding-bottom: 10px;
+}
+.navbt .dh ul.ul1 li{
+    margin-right: 60px;
+}
+.navbt .dh ul li{
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+    transition: all .3s;
+}
+.navbt .dh ul li.li1{
+    margin-left: -60px;
+}
+.navbt .dh ul li:hover{
+    background-color: #035968;
+}
+.navbt .dh ul li a{
+    font-weight: 200;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.navnr{
+    width: 1165px;
+    margin: 66px auto 0 auto;
+}
+.navnr .nav_img{
+    float: left;
+    margin-left: 83px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.navnr div.nav_imgs{
+    transition: all 1s;
+}
+.navnr div.nav_imgs img{
+    width: 399px;
+    height: 483px;
+    position: fixed;
+    left: 35%;
+    top: 10%;
+    z-index: 9999
+}
+.navnr .nav_img p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.tab{
+    width: 1165px;
+    margin: 0 auto;
+    margin-top: 83px;
+    margin-bottom: 100px; ;
+    text-align: center;
+    height: 85px;
+    line-height: 85px;
+}
+.tab a{
+    display: inline-block;
+    line-height: 61px;
+    width: 63px;
+    height: 61px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    font-size: 19px;
+}
+.tab a.a1{
+    width: 85px;
+    height: 63px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 63px;
+}
+/*footer start*/
+.footerT{
+    width: 100%;
+    background-color: #343339;
+}
+.FTT{
+    height: 320px;
+}
+.footerB{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: #27272F;
+}
+.FBox{
+    height: 320px;
+}
+.khfw{
+    text-align: center;
+    margin-top: 40px;
+}
+.khfw a{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.foot-link{
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: center;
+}
+.foot-link a{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.ewm{
+    width: 110px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.footT{
+    width: 525px;
+    margin: 0 auto;
+    color: #fff;
+}
+.footT span{
+    font-size: 16px;
+}
+
+/*footer end*/
+
+.bgc{
+    background-color: #000;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: none;
+}
