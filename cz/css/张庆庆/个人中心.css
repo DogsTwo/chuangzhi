@@ -164,8 +164,9 @@
 	margin-top: 20px;
 }
 .userName{
-	width: 330px;
-	height: 50px;
+	width: 285px;
+    height: 50px;
+    padding-left: 45px;
 	border: 1px solid #a2a0a0;
 	border-radius: 5px;
 	font-size: 20px;
@@ -253,27 +254,21 @@
 	cursor: pointer;
 }
 /*三级联动*/
-.choose-address {
-	padding: 10px;
-}
-label{
-	text-align: center;
-}
+.choose-address {padding: 10px;}
 select{
     display: inline-block;
-    outline: none;
-    padding: 0 15px;
+    width: 100px;
     height: 50px;
     border: 1px solid #a2a0a0;
     background-color: #fff;
-    color: #aaa;
     font-size: 20px;
-    border-radius: 5px;
     font-weight: bold;
     text-align: center;
     -webkit-appearance: none;
+    outline: none;
   }
   option{
+  	display: block;
     text-align: center;
   }
 /*三级联动结束*/
