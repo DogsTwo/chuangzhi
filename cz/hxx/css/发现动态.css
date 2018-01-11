@@ -2,14 +2,13 @@
 body{
     width: 100%;
     height: 100%;
-    background: url("../images/hxx/bg1.png") no-repeat ;
-    -webkit-background-size: 100% 100%;
-    background-size: 100% 100%;
+    background: url("../images/hxx/bg.png") no-repeat center ;
+    margin: 0 auto;
 }
 nav{
     height: 100%;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, .3);
+    /*background-color: rgba(0, 0, 0, .3);*/
 }
 .navtb{
     /*width: 100%;*/
@@ -79,9 +78,28 @@ nav{
     border-right: 1px solid #414556;
     position: relative;
 }
+.navdh .navs ul li:hover a{
+    animation: top 1s;
+}
+.navdh .navs ul li.lis{
+    border-right: none;
+}
+@keyframes top{
+    0%{
+        top: 0;
+    }
+    50%{
+        top:10px;
+    }
+    100%{
+        top:0;
+    }
+}
 .navdh .navs ul li a{
     font-size:18px;
     font-weight: 400;
+    position: relative;
+    transition: all 1s;
 }
 .navdh .navs ul li .select{
     width: 162px;
@@ -111,78 +129,71 @@ nav{
     border-right: none;
 }
 /*Í·²¿end*/
-.logo .logoin{
-    margin-top: 30px;
-}
-.logo .logoin img{
-    width: 1165px;
-    height: 426px;
-}
-.navbt .dh ul{
-    overflow: hidden;
-    padding-left: 120px;
-}
-.navbt .dh ul.ul1{
-    border-bottom: 3px solid #035267;
-    padding-bottom: 10px;
-}
-.navbt .dh ul.ul1 li{
-    margin-right: 60px;
-}
-.navbt .dh ul li{
-    float: left;
-    padding: 5px;
-    margin-top: 5px;
-}
-.navbt .dh ul li.li1{
-    margin-left: -60px;
-}
-.navbt .dh ul li:hover{
-    background-color: #035968;
-}
-.navbt .dh ul li a{
-    font-weight: 200;
-    padding: 5px 10px;
-    font-size: 20px;
-}
-.navnr{
-    width: 1165px;
-    margin: 66px auto 0 auto;
-}
-.navnr .nav_img{
-    float: left;
-    margin-left: 83px;
-    cursor: pointer;
-}
-.navnr .nav_img p {
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 17px;
-}
-.tab{
-    width: 1165px;
+.navlogo{
+    height: 100%;
     margin: 0 auto;
-    margin-top: 83px;
-    margin-bottom: 100px; ;
-    text-align: center;
-    height: 85px;
-    line-height: 85px;
+    background: url("../images/hxx/bg2.png") no-repeat center top ;
 }
-.tab a{
+.navlogo .navlo span{
+    color: #fff;
     display: inline-block;
-    line-height: 61px;
-    width: 63px;
-    height: 61px;
-    border: 1px solid #FFFFFF;
+    width: 150px;
+    height: 40px;
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
+    line-height: 40px;
 }
-.tab a.a1{
-    width: 85px;
-    height: 63px;
-    border: 1px solid #fff;
+.navlogo .navlo .logoin{
+    margin: 0 0 30px 0; 
+}
+.navlogo .navlo .logoin .imgs{
+    margin-right: 100px;
+}
+.navlogo .navlo .logoin .imgs img{
+    width: 695px;
+    height: 517px;
+}
+.navlogo .navlo .logoin .wenzi{
+    margin: 10px 0 0 0;
+}
+.navlogo .navlo .logoin .wenzi h2{
+    font-weight: 400;
+    padding: 10px 0;
+}
+.navlogo .navlo .logoin .wenzi h3{
+    font-weight: 400;
+    padding: 7px 0;
+}
+.navlogos .divs{
+    border-top: 2px dashed #1b1b1b ;
+    margin-bottom: 40px;
+}
+.navlogos .fl img{
+    width: 312px;
+    height: 210px;
+}
+.navlogos .fl .mt{
+    padding: 0 0 0 15px;
+}
+.navlogos .divs.tb{
+    margin: 0;
+}
+.navlogos .inp{
+    /*position: relative;*/
     text-align: center;
-    line-height: 63px;
+}
+.navlogos .inp input{
+    width: 203px;
+    height: 42px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border: 0;
+    /*position: relative;*/
+    top: 0;
+    /*left: 324px;*/
+    margin-bottom: 10px;
+    cursor: pointer;
+
 }
 /*footer start*/
 .footerT{
@@ -233,4 +244,3 @@ nav{
 }
 
 /*footer end*/
-
