@@ -1,6 +1,6 @@
 /*content*/
 body{
-	background: url(../../images/李鹏/zc/17.png) no-repeat center center;
+	background: url(../../images/李鹏/ls/04.png) no-repeat center center;
 	background-size: 1920px 100%;
 }
 content{
@@ -124,7 +124,7 @@ content{
 .ent_q .q1 a{
 	position: absolute;
 	left: 44%;
-	bottom: 27px;
+	bottom: 20px;
 	height: 40px;
 	width: 150px;
 	background-color: #333;
@@ -134,7 +134,7 @@ content{
 	transition: all 0.5s;
 }
 .ent_q .q1 a:hover{
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,.5);
 }
 /*图片效果*/
 .box {
