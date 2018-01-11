@@ -57,8 +57,8 @@
         <div class="navlogo">
             <div class="navlo nw">
                 <span>动态</span>
-                <span>活动</span>
-                <span>交流学习</span>
+                <span id="huodongtiao">活动</span>
+                <span id="jiaoliutiao">交流学习</span>
                 <div class="logoin nw clearfix">
                     <div class="imgs fl">
                         <img src="../images/hxx/市场.png" alt=""/>
@@ -203,5 +203,15 @@
             </div>
         </footer>
     </nav>
+    <script>
+    	var huodongtiao = document.getElementById("huodongtiao");
+    	var jiaoliutiao = document.getElementById("jiaoliutiao");
+    	huodongtiao.onclick = function (){
+    		window.open("../../html/王福森/发现活动.html");
+    	}
+    	jiaoliutiao.onclick = function (){
+    		window.open("../../html/王福森/交流学习》市场推介.html");
+    	}
+    </script>
 </body>
 </html>

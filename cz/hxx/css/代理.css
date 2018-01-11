@@ -9,7 +9,7 @@ body{
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
-/*Â¥Ìİµ¼º½¿ªÊ¼*/
+/*ç”µæ¢¯å¯¼èˆª*/
 #loutinav {
     width: 35px;
     position: fixed;
@@ -19,7 +19,6 @@ body{
     display: none;
 
 }
-
 #loutinav ul li {
     width: 35px;
     height: 32px;
@@ -33,7 +32,6 @@ body{
     background: #918888;
     color: #fff;
 }
-
 #loutinav ul li span {
     width: 35px;
     height: 32px;
@@ -42,9 +40,6 @@ body{
     top: 0;
     left: 0;
 }
-
-
-
 #loutinav ul li.last {
     background: #5e4a4a;
     color: #fff;
@@ -63,7 +58,7 @@ body{
     display: block;
 }
 
-/*Â¥Ìİµ¼º½½áÊø*/
+/*ç”µæ¢¯å¯¼èˆªç»“æŸ*/
 
 .navtb{
     width: 100%;
@@ -212,7 +207,7 @@ body{
 }
 .contanin .navs1 .wenzi h4,.contanin .navs2 .wenzi1 h4{
     margin: 0 0 7px 0;
-    font-family: "Microsoft YaHei", "Î¢ÈíÑÅºÚ";
+    font-family: "Microsoft YaHei", "Î¢ï¿½ï¿½ï¿½Åºï¿½";
     font-size: 14px;
 }
 .contanin .navs1 .ximg{
@@ -233,7 +228,7 @@ body{
     background-color: #008df0;
     border: none;
     color: #ffffff;
-    font-family:"Î¢ÈíÑÅºÚ";
+    font-family:"Î¢ï¿½ï¿½ï¿½Åºï¿½";
     font-size: 15px;
     font-weight: 600;
 }
@@ -257,7 +252,7 @@ body{
     background-color: #008df0;
     border: none;
     color: #ffffff;
-    font-family:"Î¢ÈíÑÅºÚ";
+    font-family:"Î¢ï¿½ï¿½ï¿½Åºï¿½";
     font-size: 15px;
 }
 .contanin .navs2 .imgs1{
@@ -318,7 +313,7 @@ body{
     background-color: #008df0;
     border: none;
     color: #ffffff;
-    font-family:"Î¢ÈíÑÅºÚ";
+    font-family:"Î¢ï¿½ï¿½ï¿½Åºï¿½";
     font-size: 15px;
 }
 .contanin .nav3 .huiji{
@@ -333,7 +328,7 @@ body{
 }
 .contanin .nav3 .huiji h4,.nav4 .fl h4,.nav5 .wenzi2 h4{
     margin: 0 0 5px 0;
-    font-family: "Microsoft YaHei", "Î¢ÈíÑÅºÚ";
+    font-family: "Microsoft YaHei", "Î¢ï¿½ï¿½ï¿½Åºï¿½";
     font-size: 14px;
 }
 .contanin .nav4{
@@ -356,7 +351,7 @@ body{
     background-color: #008df0;
     border: none;
     color: #ffffff;
-    font-family:"Î¢ÈíÑÅºÚ";
+    font-family:"Î¢ï¿½ï¿½ï¿½Åºï¿½";
     font-size: 15px;
 }
 .contanin .nav4 .imges img{
@@ -427,7 +422,7 @@ body{
     background-color: #008df0;
     border: none;
     color: #ffffff;
-    font-family:"Î¢ÈíÑÅºÚ";
+    font-family:"Î¢ï¿½ï¿½ï¿½Åºï¿½";
     font-size: 15px;
 }
 .footerT{
