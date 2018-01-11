@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../../css/lp/swiper-3.4.2.min.css">
 	<link rel="stylesheet" href="../../css/lp/lp_ls.css">
 	<link rel="stylesheet" href="../../css/张庆庆/base.css"/>
 	<style>
@@ -39,7 +42,27 @@
 	<content>
 		<div class="con">
 			<div class="con_1 w">
-				<img src="../../images/李鹏/ls/02.png" alt="">
+				<div class="logoin w">
+                <div class="swiper-container">
+                <div class="parallax-bg" style="background-image:url(img/Parallax.jpg)" data-swiper-parallax="-23%"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../../images/李鹏/ls/02.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../../images/李鹏/ls/01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../../images/李鹏/ls/03.jpg" alt="">
+                    </div>
+                </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination swiper-pagination-white"></div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                </div>
+            </div>
 			</div>
 		</div>
 		<div class="ent">
@@ -117,5 +140,18 @@
 		</div>
 	</content>
 	<iframe src="../张庆庆/jiaobu.html" frameborder="0" class="footer"></iframe>
+	<!-- Swiper JS -->
+    <script src="../../js/lp/swiper-3.4.2.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            parallax: true,
+            speed: 600,
+        });
+    </script>
 </body>
 </html>

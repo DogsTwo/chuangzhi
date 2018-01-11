@@ -129,19 +129,50 @@ dd:hover{
 
 .fcc{
 	border: 1px solid #fff;
-	width: 758px;
+	width: 755px;
 	height: 60px;
-	font-size: 16px;
+	/*font-size: 16px;*/
 	position: absolute;
 	bottom: 60px;
 	left: 225px;
 }
 .fcc span{
 	border-right: 1px solid #fff;
-	width: 60px;
+	width: 65px;
 	height: 60px;
 	display: inline-block;
 	line-height: 60px;
 	text-align: center;
 	cursor: pointer;
+	font-size: 16px;
+}
+.fcc span:hover{
+	background: rgba(255,255,255,.5);
+}
+/*lb*/
+ .swiper-container {
+    width: 1200px;
+    height: 426px;
+    background: #000;
+}
+.swiper-slide {
+    font-size: 18px;
+    color:#fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*padding: 40px 60px;*/
+}
+.swiper-slide img{
+    width: 1200px;
+    height: 426px;
+}
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }

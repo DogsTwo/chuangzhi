@@ -3,6 +3,9 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>招聘</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../../css/lp/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="../../css/lp/lp_zp.css">
     <link rel="stylesheet" href="../../css/张庆庆/base.css"/>
     <style>
@@ -23,10 +26,26 @@
     <iframe src="../张庆庆/toubu.html" frameborder="0" class="header"></iframe>
     <nav>
         <div class="navdh">
-            <div class="navs nw">
+            <div class="navs w">
                 <ul>
                     <li><a href="#">首页</a></li>
-                    <li><a href="#">行业资讯</a></li>
+                    <li>
+                        <a href="#">行业资讯</a>
+                        <ul class="select">
+                            <li class="xiala">
+                                <a href="#">找资金</a>
+                            </li>
+                            <li>
+                                <a href="#">导师服务</a>
+                            </li>
+                            <li>
+                                <a href="#">法律服务</a>
+                            </li>
+                            <li>
+                                <a href="#">代理服务</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="#" class="myck">我的创客</a>
                         <ul class="select">
@@ -44,17 +63,81 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="#">发现</a></li>
-                    <li><a href="#">招聘</a></li>
+                    <li>
+                        <a href="#">发现</a>
+                        <ul class="select">
+                            <li class="xiala">
+                                <a href="#">找资金</a>
+                            </li>
+                            <li>
+                                <a href="#">导师服务</a>
+                            </li>
+                            <li>
+                                <a href="#">法律服务</a>
+                            </li>
+                            <li>
+                                <a href="#">代理服务</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">招聘</a>
+                        <ul class="select">
+                            <li class="xiala">
+                                <a href="#">找资金</a>
+                            </li>
+                            <li>
+                                <a href="#">导师服务</a>
+                            </li>
+                            <li>
+                                <a href="#">法律服务</a>
+                            </li>
+                            <li>
+                                <a href="#">代理服务</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li  class="lis">
                         <a href="#">创建项目</a>
+                        <ul class="select">
+                            <li class="xiala">
+                                <a href="#">找资金</a>
+                            </li>
+                            <li>
+                                <a href="#">导师服务</a>
+                            </li>
+                            <li>
+                                <a href="#">法律服务</a>
+                            </li>
+                            <li>
+                                <a href="#">代理服务</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="logo">
             <div class="logoin w">
-                <img src="../../images/李鹏/ls/02.png" alt=""/>
+                <div class="swiper-container">
+                <div class="parallax-bg" style="background-image:url(img/Parallax.jpg)" data-swiper-parallax="-23%"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../../images/李鹏/ls/02.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../../images/李鹏/ls/01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../../images/李鹏/ls/03.jpg" alt="">
+                    </div>
+                </div>
+                    Add Pagination
+                    <div class="swiper-pagination swiper-pagination-white"></div>
+                    Add Navigation
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                </div>
             </div>
         </div>
         <div class="navbt">
@@ -119,14 +202,17 @@
             </div>
         </div>
         <div class="navtp">
-            <div class="navtps w">
-                <div class="navtp1" style="font-size: 16px;">
+            <div class="navtps w" id="ent">
+                <div class="navtp1" style="font-size: 16px;" id="kl">
                     <div class="top clearfix">
                         <img src="../../images/李鹏/ls/05.png" alt="" class="fl"/>
                         <div class="ziti fl">
                             <p>姓名：郭兵</p>
                             <p>职称：教授</p>
                             <p>地址：四川大学</p>
+                        </div>
+                        <div class="tj">
+                            推荐
                         </div>
                     </div>
                     <div class="bot fl">
@@ -136,19 +222,55 @@
                     </div>
                     <div class="bg fl">
                         <p class="fl">
-                            <img src="../images/hxx/zhinan.png" alt=""/>
+                            <img src="../../images/李鹏/ls/06.png" alt=""/>
                             <a>IT互联网; 信息技术</a>
                         </p>
                         <p class="fr">
-                            <img src="../images/hxx/sp.png" alt=""/>
+                            <img src="../../images/李鹏/ls/07.png" alt=""/>
                             <a>成都</a>
                         </p>
                     </div>
                 </div>
-            </div>
+                <script>
+                    // var ent = document.getElementById('ent');
+                    // var kl = document.getElementById('kl');
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                    // ent.appendChild(kl.cloneNode(true));
+                </script>
+            </div>2
         </div>
     </nav>
+    <div class="ent">
+        <div class="ent1">
+            更多
+        </div>
+    </div>
     <iframe src="../张庆庆/jiaobu.html" frameborder="0" class="footer"></iframe>
+    <!-- Swiper JS -->
+    <script src="../../js/lp/swiper-3.4.2.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            parallax: true,
+            speed: 600,
+        });
+    </script>
 
 </body>
 </html>

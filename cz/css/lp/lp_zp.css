@@ -6,57 +6,14 @@ body{
     width: 100%;
     height: 100%;
     background: url(../../images/李鹏/ls/04.png) no-repeat center center;
+    background-size: 1920px 100%;
 }
 nav{
     height: 100%;
     margin: 0 auto;
     /*background-color: rgba(0, 0, 0, .3);*/
 }
-.navtb{
-    /*width: 100%;*/
-    margin: 0 auto;
-    height: 47px;
-    background-color: #000000;
-}
-.navtb .navjz{
-    height: 47px;
-    background-color: #000000;
-}
-.navjz a{
-    font-weight:500;
-}
-.nav1{
-    width:473px ;
-    height: 47px;
-}
-.nav a .zt{
-    color: #fff;
-    /*font-weight: 500;*/
-}
-.nav1 a img{
-    padding: 0 31px 0 0;
-}
-.nav2{
-    width: 453px;
-    height: 47px;
-    background-color: #000000;
-}
-.nav2 input{
-    width: 279px;
-    height: 31px;
-    border-radius: 30px;
-    margin: -3px 0 0 0;
-    border: none;
-    background-color: #1b1b1b;
-}
-.nav2 img{
-    position: relative;
-    left: -267px;
-}
-.nav2 a{
-    margin-left: 60px;
-    line-height: 47px;
-}
+
 .navdh{
     width: 100%;
     height: 61px;
@@ -92,6 +49,7 @@ nav{
     padding-top: 15px;
     display: none;
     left: 0;
+    z-index: 233;
 }
 .navdh .navs ul li .select li{
     width: 162px;
@@ -105,7 +63,7 @@ nav{
 .navdh .navs ul li .select li:hover{
     background-color: rgba(144,146,165,.5);
 }
-.navdh .navs ul>li:hover .select{
+.navdh .navs ul li:hover .select{
     display: block;
 }
 .navdh .navs ul li a.lis{
@@ -113,6 +71,9 @@ nav{
 }
 /*头部end*/
 /*头部end*/
+.logo{
+    z-index: -10;
+}
 .logo .logoin{
     margin-top: -10px;
 }
@@ -139,13 +100,13 @@ nav{
     float: left;
     padding: 5px;
     margin: 5px 0;
-
+    transition: all 0.5s;
 }
 .navbt .dh ul li.li1{
     margin-left: -60px;
 }
 .navbt .dh ul li:hover{
-    background-color: #035968;
+    background: rgba(0,0,0,.5);
 }
 .navbt .dh ul li a{
     font-weight: 200;
@@ -176,42 +137,128 @@ nav{
     margin-left: 10px;
     vertical-align: middle;
 }
+.navtp{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+.navtp .navtps{
+    height: 100%;
+}
 .navtp .navtps .navtp1{
     float: left;
-    width: 390px;
-    height: 315px;
+    width: 381px;
+    height: 305px;
     /*margin-right: 12px;*/
     border: 1px solid #667b80;
     background-color: rgba(0, 0, 0, .4);
-    margin: 5px 12px 5px 0;
+    margin: 10px 7px;
+    position: relative;
 }
 .navtp .navtps .navtp1.st{
     margin: 0;
 }
 .navtp .navtps .navtp1 .top{
-    width: 389px;
+    width: 381px;
+    height: 145px;
     border-bottom: 1px solid #333333;
     color: #fff;
+}
+.navtp .navtps .navtp1 .top .tj{
+    border: 1px solid #fd9403;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fd9403;
 }
 .navtp .navtps .navtp1 .top img{
     width: 92px;
     height: 92px;
-    margin: 16px 20px;
+    margin:  27px;
 }
 .navtp .navtps .navtp1 .top .ziti {
     font-size: 14px;
     margin-top: 6px;
 }
+.navtp .navtps .navtp1 .top .ziti p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
 .navtp .navtps .navtp1 .bot{
     margin: 7px 20px;
     color: #fff;
 }
+.navtp .navtps .navtp1 .bot p{
+    padding-top: 10px;
+}
 .navtp .navtps .navtp1 .bg{
-    width: 389px;
+    position: absolute;
+    bottom: 0;
+    width: 381px;
     height: 50px;
+    line-height: 50px;
     background-color: #5f7187;
+}
+.navtp .navtps .navtp1 .bg img{
+    vertical-align: middle;
+}
+.navtp .navtps .navtp1 .bg a{
+    vertical-align: middle;
 }
 .navtp .navtps .navtp1 .bg p{
     margin-left: 15px;
     margin-right: 15px;
+}
+.ent{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.ent{
+    height: 120px;
+}
+.ent1{
+    width: 1195px;
+    margin: 50px auto;
+    height: 50px;
+    background: rgba(31,31,31,.5);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/*lb*/
+ .swiper-container {
+    width: 1200px;
+    height: 426px;
+    background: #000;
+}
+.swiper-slide {
+    font-size: 18px;
+    color:#fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*padding: 40px 60px;*/
+}
+.swiper-slide img{
+    width: 1200px;
+    height: 426px;
+}
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }

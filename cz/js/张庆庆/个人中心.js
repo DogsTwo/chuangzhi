@@ -123,3 +123,23 @@ function time(){
 		}
 	}
 }
+
+
+
+
+
+//创建项目
+createPro();
+function createPro(){
+	var btn = $("#createPro");
+	var no = $("#nocreate");
+	var yes = $("#create");
+	btn.onclick = function (){
+		no.style.display = "none";
+		yes.style.display = "block";
+	}
+}
+
+$("#escout").onclick = function (){
+	window.open("../../html/lp/lp_index.html");
+}
