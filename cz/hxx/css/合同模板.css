@@ -205,6 +205,7 @@ nav{
     border: 1px solid #FFFFFF;
     text-align: center;
     font-size: 19px;
+    background-color: rgba(0,0,0,.0);
 }
 .tab a.a1{
     width: 85px;
@@ -212,6 +213,9 @@ nav{
     border: 1px solid #fff;
     text-align: center;
     line-height: 63px;
+}
+.tab a:hover{
+    background-color: rgba(255,255,255,.5);
 }
 /*footer start*/
 .footerT{
