@@ -25,7 +25,7 @@
 						<div class="conLeft fl">
 							<div class="conLt">
 								<div class="touxiang">
-									<img src="../../images/张庆庆/个人中心/touxiang.png" alt="" />
+									<img src="../../images/张庆庆/个人中心/touxiang.png" alt="" id="image"/>
 									<h1>我是会员1号</h1>
 									<h4>关注电子商务</h4>
 								</div>
@@ -109,15 +109,15 @@
 												<!--三级联动-->
 												<div class="mt25">
 													<div class="choose-address">
-														<label>
-														  <select name="sheng" id="sheng"></select>
-														</label>
-														<label>
-														  <select name="shi" id="shi"></select>
-														</label>
-														<label>
-														  <select name="xian" id="xian"></select>
-														</label>
+													  <label>
+													    <select name="sheng" id="sheng"></select>
+													  </label>
+													  <label>
+													    <select name="shi" id="shi"></select>
+													  </label>
+													  <label>
+													    <select name="xian" id="xian"></select>
+													  </label>
 													</div>
 												</div>
 												<div class="mt25 por">
@@ -413,12 +413,18 @@
 			
 		</content>
 		<iframe src="脚部.html" width="100%" height="372px" seamless="seamless"></iframe>
+		<script src="../../js/张庆庆/jquery-1.11.0.min.js"></script>
+		<script src="../../js/张庆庆/jquery.animations.min.js"></script>
+		<script src="../../js/张庆庆/jquery.animations-tile.js"></script>
+		<script src="../../js/张庆庆/app.js"></script>
 		<script src="../../js/张庆庆/javasc.min.js"></script>
 		<script src="../../js/张庆庆/个人中心.js"></script>
 		<script src="../../js/张庆庆/jq.js"></script>
 		<script src="../../js/张庆庆/address.js"></script>
+		
+		
 		<script>
-			$('.choose-address').chooseAddress();
+			$('.choose-address').chooseAddress()
 		</script>
 	</body>
 </html>

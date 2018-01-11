@@ -82,7 +82,7 @@ body{
     font-size:18px;
     font-weight: 400;
 }
-.navdh .navs ul li a.lis{
+.navdh .navs ul li.lis{
     border-right: none;
 }
 .navlogo{
@@ -144,7 +144,7 @@ body{
 .contanin .navs1 .imgs img{
     width: 465px;
     height: 465px;
-    margin-left: 120px;
+    margin-left: 0;
 }
 .contanin .navs1 .wenzi{
     width: 300px;

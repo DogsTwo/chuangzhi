@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 .headertxt {
   display: inline-block;
@@ -25,19 +26,21 @@
   text-shadow: 0.5px 0.5px 0 #d38076, -0.5px -0.5px 0 #d38076, -0.5px -0.5px 0 #d38076, -0.5px 0.5px 0 #d38076, 0.5px -0.5px 0 #d38076;
 }
 
+
+
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
-		    .masked{
-		        background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);
-		        -webkit-text-fill-color: transparent;
-		        -webkit-background-clip: text;
-		        -webkit-background-size: 200% 100%;
-		        -webkit-animation: masked-animation 4s infinite linear;
-		    }
-		}
-		@-webkit-keyframes masked-animation {
-		    0%  { background-position: 0 0;}
-		    100% { background-position: -100% 0;}
-		}
+    .masked{
+        background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-background-size: 200% 100%;
+        -webkit-animation: masked-animation 4s infinite linear;
+    }
+}
+@-webkit-keyframes masked-animation {
+    0%  { background-position: 0 0;}
+    100% { background-position: -100% 0;}
+}
 
 /*content*/
 content{
@@ -108,6 +111,8 @@ content{
 	z-index: 233;
 	font-size: 48px;
 	text-align: center;
+	transition: all 0.5s;
+	cursor: pointer;
 }
 .nav_e .p1{
 	font-size: 48px;
@@ -214,6 +219,13 @@ content{
 	width: 140px;
 	padding: 0 52px;
 }
+.cnt_e li img{
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+.cnt_e li img:hover{
+	transform: scale(1.1) rotate(360deg);
+}
 .cnt_e a{
 	font-size: 24px;
 	color: #000;
@@ -275,10 +287,15 @@ content{
 	float: left;
 }
 .ent .ent_e li img{
-	padding-top: 25px;
-	padding-bottom: 28px;
+	margin-top: 25px;
+	margin-bottom: 28px;
 	width: 202px;
 	height: 202px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
+.ent .ent_e li img:hover{
+	box-shadow: 0 0 7px 4px rgba(255,255,255,.5);
 }
 .ent .ent_e li span{
 	display: inline-block;
@@ -378,18 +395,18 @@ content{
 }
 .ssc .ssc_q .ssc_r{
 	position: relative;
-	padding: 0 141px;
+	padding: 0 25px;
 }
 .ssc .ssc_q .ssc_r li{
 	float: left;
-	padding: 0 0 0 91px;
+	padding: 0 0 0 148px;
 	padding-top: 60px;
 }
 .ssc .ssc_q .ssc_r span{
 	display: inline-block;
 	font-size: 24px;
 	padding-top: 50px;
-	padding-left: 130px;
+	padding-left: 275px;
 }
 
 .ccs{
@@ -549,3 +566,6 @@ content{
 .footT span{
 	font-size: 16px;
 }
+
+
+

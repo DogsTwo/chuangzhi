@@ -47,8 +47,8 @@
                     </li>
                     <li><a href="#">发现</a></li>
                     <li><a href="#">招聘</a></li>
-                    <li>
-                        <a href="#" class="lis">创建项目</a>
+                    <li class="lis">
+                        <a href="#">创建项目</a>
                     </li>
                 </ul>
             </div>
@@ -93,7 +93,7 @@
                 </ul>
             </div>
         </div>
-        <div class="navnr o">
+        <div class="navnr o" id="abc">
             <div class="nav_img">
                 <img src="../images/hxx/1.jpg" alt=""/>
                 <p>合作协议模板</p>
@@ -221,5 +221,31 @@
             </div>
         </div>
     </footer>
+    <div class="bgc" id="bg">
+        <img src="../images/hxx/gb.png" alt="" width="20px" style="position: fixed;top: 50px;right: 50px; cursor: pointer;" id="btn">
+    </div>
+    <script>
+        var nav_img = document.getElementById('abc').getElementsByClassName('nav_img');
+        var btn = document.getElementById('btn')
+        var bg = document.getElementById('bg');
+        for (var i = 0; i < nav_img.length; i++) {
+            nav_img[i].onclick = function () {
+                for (var i = 0; i < nav_img.length; i++) {
+                    if(this == nav_img[i]){
+                        nav_img[i].className = "nav_img nav_imgs"
+                        bg.style.display = "block";
+                    }else{
+                        nav_img[i].className = "nav_img"
+                    }
+                }
+            }
+        }
+        btn.onclick = function () {
+            for (var i = 0; i < nav_img.length; i++) {
+                nav_img[i].className = "nav_img"
+                bg.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
