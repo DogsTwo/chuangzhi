@@ -21,5 +21,19 @@ $('#password').onblur = function(){
 	}
 }
 $("#loginBtn").onclick = function (){
-	if()
+	var str = $('#iphon').value;
+	var str1 = $('#password').value;
+	var reg = /0?(13|14|15|17|18|19)[0-9]{9}/;
+	var reg1 = /^\w+@\w+\.[a-z]{2,3}(\.[a-z])?/;
+	console.log(str);
+	console.log(str1);
+	if(reg.test(str) && str1.value != '' && str.value != ''){
+		window.open('../../html/lp/lp_index.html');
+	}else if(reg1.test(str) && str1.value != '' && str.value != ''){
+		window.open('../../html/lp/lp_index.html');
+	}else if(str.value == '' || str1.value == ''){
+		alert('手机号或密码不能为空');
+	}else{
+		alert('手机号或密码格式不正确');
+	}
 }
